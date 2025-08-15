@@ -3,55 +3,252 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sport web</title>
     <!-- STYLE -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- HEADER START -->
     <header class="header">
-      <nav class="nav container">
-        <a class="nav__logo" href="#">
-          <img src="./images/Power.png" alt="power" width="76" height="17" />
+      <div class="header__container container">
+        <a class="site__logo" href="#">
+          <img
+            class="site__logo__image"
+            src="./images/Power.svg"
+            alt="power"
+            width="76"
+            height="17"
+          />
         </a>
-        <ul class="nav__list">
-          <li class="nav__list_item">
-            <a href="#" class="nav__list_link">About</a>
-          </li>
-          <li class="nav__list_item">
-            <a href="#" class="nav__list_link">Training </a>
-          </li>
-          <li class="nav__list_item">
-            <a href="#" class="nav__list_link">events </a>
-          </li>
-          <li class="nav__list_item">
-            <a href="#" class="nav__list_link">Sports</a>
-          </li>
-        </ul>
-        <div class="nav__btn">
-          <a class="btn__text" href="#">LET'S GO</a>
-          <span class="btn__img"
-            ><img src="./images/Group.png" alt="group" width="24" height="24"
-          /></span>
-        </div>
-      </nav>
+
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">About</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Training </a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">events </a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Sports</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="header__btn btn">
+          <span class="header__btn__text" href="#">LET'S GO</span>
+          <svg
+            class="header__btn__image"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M6.43091 4.13384C6.44535 3.97543 6.52212 3.82923 6.64432 3.7274C6.76652 3.62556 6.92416 3.57642 7.08258 3.59078L13.3048 4.15675C13.4604 4.17467 13.6029 4.25273 13.7017 4.37426C13.8005 4.49578 13.8479 4.65114 13.8337 4.80713C13.8195 4.96312 13.7449 5.10738 13.6258 5.2091C13.5067 5.31081 13.3525 5.36191 13.1962 5.35148L6.97396 4.78551C6.81555 4.77106 6.66936 4.6943 6.56753 4.5721C6.46569 4.4499 6.41655 4.29226 6.43091 4.13384Z"
+              fill="#2C2C2C"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M13.8708 11.5737C13.7124 11.5881 13.5547 11.5389 13.4325 11.4371C13.3103 11.3353 13.2335 11.1891 13.2191 11.0306L12.6531 4.80839C12.6427 4.6521 12.6938 4.49793 12.7955 4.37881C12.8972 4.25969 13.0415 4.18507 13.1975 4.17089C13.3535 4.15671 13.5088 4.20409 13.6304 4.30291C13.7519 4.40174 13.8299 4.54417 13.8479 4.69978L14.4138 10.922C14.4282 11.0805 14.379 11.2381 14.2772 11.3603C14.1754 11.4825 14.0292 11.5593 13.8708 11.5737Z"
+              fill="#2C2C2C"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M13.2505 4.75408C13.363 4.8666 13.4262 5.01922 13.4262 5.17835C13.4262 5.33748 13.363 5.49009 13.2505 5.60261L5.18946 13.6636C5.07694 13.7761 4.92433 13.8394 4.7652 13.8394C4.60607 13.8394 4.45346 13.7761 4.34093 13.6636C4.22841 13.5511 4.1652 13.3985 4.1652 13.2394C4.1652 13.0802 4.22841 12.9276 4.34093 12.8151L12.402 4.75408C12.5145 4.64156 12.6671 4.57834 12.8262 4.57834C12.9853 4.57834 13.138 4.64156 13.2505 4.75408Z"
+              fill="#2C2C2C"
+            />
+          </svg>
+        </a>
+      </div>
     </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
     <main class="main">
-      <section class="section container">
-        <div class="section__subtitle">Be strong for every thing</div>
-        <div class="section__title">Just do it</div>
-        <div class="section__hero">
-         <div class="section__image">
-           <span class="section__image_center">
-            <img src="./images/Frame 1.png" alt="Frame" width="88" height="88"/>
-          </span>
-         </div>
-          <div class="section__suptitle">
-            <span class="section__description"
-              >You can do anything if you believe in yourself</span>
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <p class="hero__subtitle">Be strong for every thing</p>
+            <h1 class="hero__title">Just do it</h1>
+          </div>
+          <div class="hero__image__container">
+            <div class="hero__image__overlay"></div>
+            <img class="hero__image" src="./images/hero.svg" alt="" />
+            <p class="hero__image__description">
+              You can do anything <br />
+              if you believe in yourself
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category__container container">
+          <div class="category__left">
+            <h3 class="category__title">Categories</h3>
+            <p class="category__description">
+              If you believe yourself, you can do anything do exercises every
+              day and every where don’t be lazy, do anything. If you fall
+              down,don’t give up. Never!
+            </p>
+          </div>
+          <div class="category__right">
+            <ul class="category__list">
+              <li class="category__item">
+                <a class="category__link" href="#">Surfing</a>
+                <img
+                  class="category__link__image"
+                  src="./images/arrow.svg"
+                  alt="Arrow"
+                />
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">dIVING</a>
+                <img
+                  class="category__link__image"
+                  src="./images/arrow.svg"
+                  alt="Arrow"
+                />
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">cLIMBING</a>
+                <img
+                  class="category__link__image"
+                  src="./images/arrow.svg"
+                  alt="Arrow"
+                />
+              </li>
+              <li class="category__item">
+                <a class="category__link" href="#">rODEO</a>
+                <img
+                  class="category__link__image"
+                  src="./images/arrow.svg"
+                  alt="Arrow"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="training">
+        <div class="training__container container">
+          <h2 class="training__title">What swallows do <br />you achieve</h2>
+          <div class="cards">
+            <div class="training__left__card">
+              <div class="card">
+                <img class="card__img" src="./images/clock.svg" alt="clock" />
+                <h5 class="card__title">Smarter Training</h5>
+                <p class="card__description">
+                  Turn your phone or smartwatch into your coach -track your
+                  workouts and get tons of data and tips to help you run better.
+                </p>
+              </div>
+              <div class="card">
+                <img class="card__img" src="./images/Vector.svg" alt="vector" />
+                <h5 class="card__title">Smarter Training</h5>
+                <p class="card__description">
+                  Turn your phone or smartwatch into your coach -track your
+                  workouts and get tons of data and tips to help you run better.
+                </p>
+              </div>
+            </div>
+            <div class="training__right__card">
+              <div class="card">
+                <img class="card__img" src="./images/heart.svg" alt="heart" />
+                <h5 class="card__title">Smarter Training</h5>
+                <p class="card__description">
+                  Turn your phone or smartwatch into your coach -track your
+                  workouts and get tons of data and tips to help you run better.
+                </p>
+              </div>
+              <div class="card">
+                <img class="card__img" src="./images/hantel.svg" alt="hantel" />
+                <h5 class="card__title">Smarter Training</h5>
+                <p class="card__description">
+                  Turn your phone or smartwatch into your coach -track your
+                  workouts and get tons of data and tips to help you run better.
+                </p>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="sport">
+        <div class="sport__container container">
+          <h1 class="sport__title">our sport club’s prices</h1>
+          <div class="sport__cards">
+            <div class="sport__card">
+              <a class="sport__btn btn" href="#">199,12$/month </a>
+              <div class="card__info">
+                <img
+                  class="sport__card__image"
+                  src="./images/snow.svg"
+                  alt="snow"
+                />
+                <div class="sport__about">
+                  <h2 class="sport__card__title">premium plan</h2>
+                  <p class="sport__card__description">
+                    Turn your phone or smartwatch into your coach -track your
+                    workouts and get tons of data and tips to help you run
+                    better.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="sport__card">
+              <a class="sport__btn btn" href="#">199,9 $/month </a>
+              <div class="card__info">
+                <img
+                  class="sport__card__image"
+                  src="./images/full-shut.svg"
+                  alt="snow"
+                  width="151"
+                  height="238"
+                />
+                <div class="sport__about">
+                  <h2 class="sport__card__title">pro plan</h2>
+                  <p class="sport__card__description">
+                    Turn your phone or smartwatch into your coach -track your
+                    workouts and get tons of data and tips to help you run
+                    better.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="sport__card">
+              <a class="sport__btn btn" href="#">free/month </a>
+              <div class="card__info">
+                <img
+                  class="sport__card__image"
+                  src="./images/proffisional.svg"
+                  alt="snow"
+                  width="174"
+                  height="230"
+                />
+                <div class="sport__about">
+                  <h2 class="sport__card__title">basic plan</h2>
+                  <p class="sport__card__description">
+                    Turn your phone or smartwatch into your coach -track your
+                    workouts and get tons of data and tips to help you run
+                    better.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -59,7 +256,86 @@
     <!-- MAIN END -->
 
     <!-- FOOTER START -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__about">
+          <img class="footer__logo" src="./images/Power.svg" alt="power" />
+          <p class="footer__description">
+            Turn your phone or smartwatch into your coach -track your workouts
+            and get tons of data and tips to help you run better.
+          </p>
+          <a href="#" class="footer__email">Power@gmail.com</a>
+          <div class="footer__icon">
+            <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+        <div class="footer__services">
+          <div class="services__list">
+            <ul class="services">
+              <li class="services__item">
+                <a class="services__link" href="#">home</a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#">about us</a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#">club</a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#">club</a>
+              </li>
+            </ul>
+            <ul class="services">
+              <li class="services__item">
+                <a class="services__link" href="#">platform</a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#">prices</a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#">location</a>
+              </li>
+              <li class="services__item">
+                <a class="services__link" href="#">comunity</a>
+              </li>
+            </ul>
+          </div>
+
+          <a class="footer__btn btn" href="#">
+            <span class="footer__btn__text">back to top</span>
+            <svg
+              class="footer__btn__arrow"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.72444 10.443C6.62116 10.322 6.57015 10.165 6.58263 10.0064C6.5951 9.8478 6.67004 9.70066 6.79096 9.59732L11.542 5.53963C11.6635 5.44079 11.8188 5.39338 11.9748 5.40754C12.1308 5.42169 12.2751 5.49629 12.3768 5.61539C12.4785 5.7345 12.5297 5.88866 12.5193 6.04495C12.5089 6.20124 12.4377 6.34726 12.3211 6.45182L7.57011 10.5095C7.44913 10.6128 7.29208 10.6638 7.1335 10.6513C6.97492 10.6388 6.82779 10.5639 6.72444 10.443Z"
+                fill="#2C2C2C"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M17.2453 10.3151C17.1449 10.4385 16.9996 10.517 16.8414 10.5333C16.6832 10.5496 16.5249 10.5024 16.4015 10.4021L11.5532 6.4612C11.4341 6.35951 11.3594 6.21526 11.3452 6.05927C11.331 5.90328 11.3784 5.74792 11.4772 5.62638C11.576 5.50483 11.7184 5.42675 11.874 5.4088C12.0296 5.39086 12.186 5.43447 12.3099 5.53033L17.1582 9.47126C17.2816 9.57163 17.3601 9.7169 17.3764 9.87513C17.3928 10.0334 17.3456 10.1916 17.2453 10.3151Z"
+                fill="#2C2C2C"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.9315 5.99582C12.0907 5.99389 12.244 6.05524 12.3579 6.16639C12.4718 6.27753 12.5369 6.42936 12.5388 6.58848L12.6774 17.9876C12.6794 18.1468 12.618 18.3001 12.5069 18.414C12.3957 18.5279 12.2439 18.593 12.0848 18.5949C11.9257 18.5968 11.7723 18.5355 11.6584 18.4243C11.5445 18.3132 11.4795 18.1614 11.4775 18.0022L11.3389 6.60308C11.3369 6.44396 11.3983 6.29059 11.5094 6.17671C11.6206 6.06282 11.7724 5.99776 11.9315 5.99582Z"
+                fill="#2C2C2C"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
     <!-- FOOTER END -->
 
     <script src="./js/app.js"></script>
